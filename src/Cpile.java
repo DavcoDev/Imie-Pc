@@ -2,7 +2,7 @@ import java.util.LinkedList;
 
 public class Cpile<A> implements IPile<A> {
 
-	public A a;
+//	public A a;
 	public LinkedList<A> list = new LinkedList<A>();
 	
 	

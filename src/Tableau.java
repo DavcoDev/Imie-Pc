@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Tableau<T>
+public class Tableau<T extends Comparable<T>>
 {
 
 	public ArrayList<Comparable<T>> tab = new ArrayList<Comparable<T>>();
@@ -13,6 +13,21 @@ public class Tableau<T>
 	public void tri()
 	{
 		
+		for (int i = 0 ; i < tab.size(); i++)
+		{
+			if (tab.get(i).compareTo((T) tab.get(i+1)) < 0)
+			{
+				
+			}
+			if (tab.get(i).compareTo((T) tab.get(i+1)) == 0)
+			{
+				
+			}
+			if (tab.get(i).compareTo((T) tab.get(i+1)) > 0)
+			{
+				
+			}
+		}
 	}
 
 
